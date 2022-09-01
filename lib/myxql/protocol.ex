@@ -160,7 +160,8 @@ defmodule MyXQL.Protocol do
         :client_protocol_41,
         :client_plugin_auth,
         :client_secure_connection,
-        :client_found_rows,
+        # apache doris 
+        # :client_found_rows,
         :client_multi_results,
         :client_multi_statements,
         # set by servers since 4.0
