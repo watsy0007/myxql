@@ -163,7 +163,7 @@ defmodule MyXQL.Protocol do
         # apache doris 
         # :client_found_rows,
         :client_multi_results,
-        :client_multi_statements,
+        # :client_multi_statements,
         # set by servers since 4.0
         # apache doris
         # :client_transactions
