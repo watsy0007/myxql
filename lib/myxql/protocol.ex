@@ -162,10 +162,9 @@ defmodule MyXQL.Protocol do
         :client_secure_connection,
         # apache doris 
         # :client_found_rows,
-        :client_multi_results,
+        # :client_multi_results,
         # :client_multi_statements,
         # set by servers since 4.0
-        # apache doris
         # :client_transactions
       ])
       |> maybe_put_capability_flag(:client_connect_with_db, !is_nil(config.database))
